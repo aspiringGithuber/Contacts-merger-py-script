@@ -44,7 +44,7 @@ def dupe(cursor, contact): # current issue edge case where to people with same n
 def addtoDB(count, cursor, contact):
     nums = ""
     emails = ""
-    if hasattr(contact, 'tel_list'): # taken from google search
+    if hasattr(contact, 'tel_list'): 
         for num in contact.tel_list:
             nums += num.value + ' '
     if hasattr(contact, 'email_list'):
@@ -59,7 +59,7 @@ def addtoDB(count, cursor, contact):
 def updateDB(cursor, contact):
     nums = ""
     emails = ""
-    if hasattr(contact, 'tel_list'): # taken from google search
+    if hasattr(contact, 'tel_list'): 
         for num in contact.tel_list:
             nums += num.value + ' ' 
     if hasattr(contact, 'email_list'):
