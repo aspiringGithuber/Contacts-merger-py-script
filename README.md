@@ -12,9 +12,9 @@
 ---
 ## current limits
 - merges based off name only could merge two people that have the same name
-- creates db file with merged contact list have not implmented conversion back to vcf
+- creates db file with merged contact list have not implemented conversion back to vcf
 ---
-## requirments
+## requirements
 - vobject
 - sqlite3
 - python 3.11 (untested with older versions)
